@@ -1,0 +1,4 @@
+the program should work if you run npm install in the folder (make sure you have node installed).
+then use npm start
+
+NOTE: you will need to supply your own API key to access the openweathermap API.

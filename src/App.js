@@ -83,7 +83,7 @@ class App extends Component {
         let latitude = position.coords.latitude.toFixed(2);
         const longitude = position.coords.longitude.toFixed(2);
 
-        //to access the API, input your own API key. The program slowed considerably when accessing the API from .env
+        //to access the API, input your own API key. I accessed my API key using a dotenv file.
         const URL = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&appid=" + process.env.REACT_APP_WEATHER_API_KEY;
         
         //used https://www.robinwieruch.de/react-fetching-data as a resource to better understand how fetch works with changing states.
